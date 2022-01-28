@@ -1,0 +1,130 @@
+@font-face {
+    font-family: outfit; src: url('Outfit-VariableFont_wght.ttf');
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px 10px 0px;
+}
+
+.card {
+    font-family: outfit;
+    text-align: left;
+    background-color: hsl(216, 50%, 16%);
+    color: hsl(215, 51%, 70%);
+    padding: 1.6rem;
+    margin: 0.5rem;
+    border-radius: 3%;
+    max-width: 18rem;
+    font-size: 1rem;
+}
+
+/* NFT Image */
+
+.NFTblock {
+    position: relative;
+    border-radius: 3%;
+    margin-bottom: 1rem;
+}
+
+.theeye {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3%;
+}
+
+.theeye:hover {
+    background-color: hsla(178, 100%, 50%, 0.678);
+    cursor: pointer;
+}
+
+.NFTpic {
+    border-radius: 3%;
+    width: 100%;
+}
+
+/* Title and Subtitle */
+
+.title {
+    color: hsl(0, 0%, 100%);
+    font-size: 23px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.title:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.subtext {
+    margin-bottom: 1rem;
+    font-size: 17px;
+    font-weight: 200;
+}
+
+/* infocont div */
+.infocont {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.1rem;
+}
+
+.infocont div {
+    display: flex;
+    align-items: center;
+}
+
+.infocont img {
+    margin-right: 0.5rem;
+}
+
+.price {
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+}
+
+/* creator div */
+.creator {
+   display: flex;
+   align-items: center;
+   margin-top: 1rem;
+}
+
+.creator div {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 100%;
+    padding: 0.08rem;
+}
+
+.creator img {
+    height: 2rem;
+}
+
+.creator span {
+    margin-left: 5%;
+}
+
+.creator span a {
+    text-decoration: none;
+    color: white;
+}
+
+.creator span a:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.attribution {
+    font-size: 11px; text-align: center;
+    color: hsl(0, 0%, 100%); 
+}
+
+.attribution a {
+    color: hsl(178, 100%, 50%); 
+}

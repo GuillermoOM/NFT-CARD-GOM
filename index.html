@@ -3,31 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | NFT preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
-<body>
-
-  Equilibrium #3429
-
-  Our Equilibrium collection promotes balance and calm.
-
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+<body style="background-color: hsl(217, 54%, 11%);">
+  <div class="header"></div>
+  <div class="body">
+    <div class="card">
+      <div class="NFTblock">
+        <div class="theeye" onmouseout="this.children[0].style = 'display: none;'" onmouseover="this.children[0].style = 'display: flex;'">
+          <img src="./images/icon-view.svg" alt="" style="display: none;">
+        </div>
+        <img class="NFTpic" src="./images/image-equilibrium.jpg" alt="qr code missing!">
+      </div>
+      <a href="#" class="title">Equilibrium #3429</a>
+      <p class="subtext">Our Equilibrium collection promotes balance and calm.</p>
+      <div class="infocont">
+        <div class="price">
+          <img src="./images/icon-ethereum.svg" alt="ETH missing!">
+          <span>0.041 ETH</span>
+        </div>
+        <div class="timer">
+          <img src="./images/icon-clock.svg" alt="clock missing!">
+          <span>3 days left</span>
+        </div>
+      </div>
+      <hr style="color: hsl(215, 32%, 27%);">
+      <div class="creator">
+        <div>
+          <img src="./images/image-avatar.png" alt="avatar missing!">
+        </div>
+        <span>Creation of <a href="#">Jules Wyvern</a></span>
+      </div>
+    </div>
   </div>
+  <div class="footer">
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/GuillermoOM/">Guillermo Ochoa</a>.
+    </div>
+  </div>
+ 
 </body>
 </html>
