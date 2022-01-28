@@ -18,7 +18,7 @@
     border-radius: 3%;
     max-width: 18rem;
     font-size: 1rem;
-    box-shadow: 0 0 4rem -2rem black;
+    box-shadow: 0 0 3rem -1.5rem black;
 }
 
 /* NFT Image */
@@ -37,11 +37,13 @@
     align-items: center;
     justify-content: center;
     border-radius: 3%;
+    background-color: hsla(178, 100%, 50%, 0.678);
+    opacity: 0;
+    transition: 250ms;
 }
 
-.theeye:hover {
-    background-color: hsla(178, 100%, 50%, 0.678);
-    cursor: pointer;
+.NFTblock:hover > .theeye {
+    opacity: 1;
 }
 
 .NFTpic {
@@ -56,6 +58,7 @@
     font-size: 23px;
     font-weight: 600;
     text-decoration: none;
+    transition: 250ms;
 }
 
 .title:hover {
@@ -115,6 +118,7 @@
 .creator span a {
     text-decoration: none;
     color: white;
+    transition: 250ms;
 }
 
 .creator span a:hover {
