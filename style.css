@@ -26,7 +26,6 @@
 .NFTblock {
     position: relative;
     border-radius: 3%;
-    margin-bottom: 1rem;
 }
 
 .theeye {
@@ -54,6 +53,10 @@
 /* Title and Subtitle */
 
 .title {
+    margin-top: 0.5rem;
+}
+
+.title a {
     color: hsl(0, 0%, 100%);
     font-size: 23px;
     font-weight: 600;
@@ -61,7 +64,7 @@
     transition: 250ms;
 }
 
-.title:hover {
+.title a:hover {
     color: hsl(178, 100%, 50%);
 }
 
