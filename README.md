@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/nft-card-37JrqAgp-)
-- Live Site URL: [Add live site URL here](https://guillermoom.github.io)
+- Solution URL: [](https://www.frontendmentor.io/solutions/nft-card-37JrqAgp-)
+- Live Site URL: [](https://guillermoom.github.io/NFT-CARD-GOM/)
 
 ### Built with
 
